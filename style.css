@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left-section{
+    height: 100vh;
+    position: relative;
+    background-image: url('images/halie.jpg');
+    background-size: cover;
+    width: 40vw;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.text{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Norse', sans-serif;
+    font-size: 5rem;  
+    font-weight: bolder;                                      
+}
+
+.logo{
+    position: relative;
+    
+}
+
+.logo-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(7, 9, 10, 0.3);
+    /* margin-top: 10rem; */
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+.image-credit{
+    position: absolute;
+    top: 95vh;
+    left: 25%;
+    color: white;
+}
+
+.image-credit p a{
+    color: white;
+}
+
+p a:hover{
+    color: blue;
+}
